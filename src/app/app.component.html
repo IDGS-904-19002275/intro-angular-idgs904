@@ -7,20 +7,21 @@
     <div>El doble de 3 es {{duplicarValor(3)}}</div>
     
     <h4>Alumno IDGS-904</h4>
-    <div>
-      <b>{{Alumno.matricula}}</b>
-    </div>
-    <div>{{Alumno.nombre}}</div>
-    <div>Fecha: {{Alumno.fechaNacimiento | date}}</div>
-    <div> Pago inscripcion {{Alumno.pagoIns | currency}}</div>
+    <div><b>{{Alumno.matricula}}</b></div>
+    <div> <b>{{Alumno.nombre}}</b></div>
+    <div><b>Fecha:{{Alumno.fechaNacimiento | date}}</b> </div>
+    <div> <b>Pago inscripcion {{Alumno.pagoIns | currency}}</b></div>
 
     <div>
-      {{title}}
+      <b>{{title}}</b>
     </div>
   
   
     <hr>
     <appescuela></appescuela>
+
+    <hr>
+    <appentornos></appentornos>
 
     <hr>
     <app-iric></app-iric>

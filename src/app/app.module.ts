@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { escuelaComponent } from './escuela/escuela.component';
 import { IricComponent } from './escuela/iric/iric.component';
+import { entornos } from './escuela/escuelaEntornos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     escuelaComponent,
-    IricComponent
+    IricComponent,
+    entornos
   ],
   imports: [
     BrowserModule
