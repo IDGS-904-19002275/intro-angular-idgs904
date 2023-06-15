@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { escuelaComponent } from './escuela/escuela.component';
 import { IricComponent } from './escuela/iric/iric.component';
 import { entornos } from './escuela/escuelaEntornos.component';
+import { MenuComponent } from './escuela/menu/menu.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     escuelaComponent,
     IricComponent,
-    entornos
+    entornos,
+    MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
