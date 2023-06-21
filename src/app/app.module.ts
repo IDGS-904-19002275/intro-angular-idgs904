@@ -7,6 +7,13 @@ import { IricComponent } from './escuela/iric/iric.component';
 import { entornos } from './escuela/escuelaEntornos.component';
 import { MenuComponent } from './escuela/menu/menu.component';
 import { FormsModule } from '@angular/forms';
+import { SumarComponent } from './escuela/formularios/sumar/sumar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -14,11 +21,17 @@ import { FormsModule } from '@angular/forms';
     escuelaComponent,
     IricComponent,
     entornos,
-    MenuComponent
+    MenuComponent,
+    SumarComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatIconModule,
+    MatButtonModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
