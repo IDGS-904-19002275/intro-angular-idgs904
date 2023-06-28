@@ -20,6 +20,7 @@ export class IricComponent {
     "correo":"lesoul@gmail.com",
     "pago":1250.25,
     "foto":"https://i.pinimg.com/originals/7b/fa/32/7bfa32216c769a10d290b4c29015f637.png"
+  
   },
 
   {

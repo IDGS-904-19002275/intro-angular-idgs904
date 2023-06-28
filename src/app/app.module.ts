@@ -14,6 +14,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatRadioModule} from '@angular/material/radio';
+import { FilterPipe } from './escuela/alumnos/-filter.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatRadioModule} from '@angular/material/radio';
     IricComponent,
     entornos,
     MenuComponent,
-    SumarComponent
+    SumarComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
