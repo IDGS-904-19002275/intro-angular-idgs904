@@ -15,6 +15,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatRadioModule} from '@angular/material/radio';
 import { FilterPipe } from './escuela/alumnos/-filter.pipe';
+import { AlumnoReactiveComponent } from './formularios/alumno-reactive/alumno-reactive.component';
+import { AlumnoReactivesComponent } from './formularios/alumno-reactives/alumno-reactives.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FilterPipe } from './escuela/alumnos/-filter.pipe';
     entornos,
     MenuComponent,
     SumarComponent,
-    FilterPipe
+    FilterPipe,
+    AlumnoReactiveComponent,
+    AlumnoReactivesComponent
   ],
   imports: [
     BrowserModule,
